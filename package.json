@@ -1,6 +1,6 @@
 {
-  "name": "@jamfromouterspace/react-native-photo-editor",
-  "version": "1.1.5",
+  "name": "@closetothe/react-native-photo-editor",
+  "version": "1.1.9",
   "description": "🌄 Image editor using native modules for iOS and Android",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -25,7 +25,6 @@
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
@@ -44,7 +43,8 @@
   },
   "homepage": "https://github.com/baronha/react-native-photo-editor#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
